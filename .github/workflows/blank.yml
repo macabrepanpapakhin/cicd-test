@@ -12,7 +12,9 @@ jobs:
     steps:
       - name: Create Folder and Clone Repository
         run: |
-          ls
-          mkdir ngarloemagithub
+          cd /var/www/e2l-fe
+          git clone https://github.com/macabrepanpapakhin/cicd-test.git
+          cp /cicd-test/index.html index.html
           pwd
+          
           
