@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Create Folder and Clone Repository
         run: |
-          mkdir /actions-runner/tt
+          mkdir /tt
           cd /path/to/desired/location/tt
           git clone https://github.com/IdeafreshMM/ideafresh.git
           cd ideafresh
