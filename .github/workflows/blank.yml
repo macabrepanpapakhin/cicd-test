@@ -34,3 +34,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+      - name: clone github repo
+        run: | 
+          mkdir tt
+          cd tt
+          git clone https://github.com/IdeafreshMM/ideafresh.git
