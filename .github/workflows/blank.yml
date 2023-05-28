@@ -12,9 +12,8 @@ jobs:
     steps:
       - name: Create Folder and Clone Repository
         run: |
-          mkdir tt
-          cd tt
+          mkdir /actions-runner/tt
+          cd /path/to/desired/location/tt
           git clone https://github.com/IdeafreshMM/ideafresh.git
           cd ideafresh
-          npm i
-          npm start
+          
