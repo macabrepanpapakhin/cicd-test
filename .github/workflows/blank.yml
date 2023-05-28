@@ -12,8 +12,9 @@ jobs:
     steps:
       - name: Create Folder and Clone Repository
         run: |
+          ls
           mkdir cicd
-          cd abcdefg
+          cd cicd
           git clone https://github.com/IdeafreshMM/ideafresh.git
           cd ideafresh
           
