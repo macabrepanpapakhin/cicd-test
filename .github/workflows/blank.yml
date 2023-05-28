@@ -13,8 +13,6 @@ jobs:
       - name: Create Folder and Clone Repository
         run: |
           ls
-          mkdir leepae
-          sudo lshw
-          cd ideafresh
-          ls
+          mkdir ngarloemagithub
+          pwd
           
