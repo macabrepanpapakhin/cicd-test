@@ -12,10 +12,11 @@ jobs:
     steps:
       - name: Create Folder and Clone Repository
         run: |
-          cd /var/www/e2l-fe
+          cd /var/www
           rm -rf cicd-test
           git clone https://github.com/macabrepanpapakhin/cicd-test.git
           cp cicd-test/index.html index.html
           pwd
+          ls
           
           
