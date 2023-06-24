@@ -15,7 +15,7 @@ jobs:
           cd /var/www
           rm -rf cicd-test
           sudo git clone https://github.com/macabrepanpapakhin/cicd-test.git
-          cp cicd-test/index.html index.html
+          sudo cp cicd-test/index.html index.html
           pwd
           ls
           
